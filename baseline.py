@@ -169,3 +169,5 @@ item_topk_click = get_item_topk_click(all_click_df, k=50)
 for user_id in tqdm(all_click_df['user_id'].unique()):
     user_recall_items_dict[user] = item_based_recommend(user_id, user_item_time_dict, i2i_sim,
                                                         sim_item_topk, recall_item_num, item_topk_click)
+
+# aa
